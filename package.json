@@ -1,0 +1,19 @@
+{
+    "name": "cli",
+    "version": "1.0.0",
+    "main": "index.js",
+    "bin": {
+        "testcli": "src/cli.js"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "log-symbols": "^4.0.0",
+        "prompts": "^2.4.0",
+        "recursive-readdir-async": "^1.1.8",
+        "shelljs": "^0.8.4",
+        "url-join": "^4.0.1"
+    },
+    "scripts": {
+        "dev": "nodemon . --ignore tmp*"
+    }
+}
