@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "main": "index.js",
     "bin": {
-        "testcli": "src/cli.js"
+        "asjss": "src/cli.js"
     },
     "dependencies": {
         "axios": "^0.21.1",
